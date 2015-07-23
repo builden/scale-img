@@ -29,5 +29,5 @@ describe('scale-img', function() {
       expect(err).not.be.null;
       done();
     });
-  })
+  });
 });

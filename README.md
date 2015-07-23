@@ -1,9 +1,7 @@
 # Scale Img
-
 scale-img based gm
 
 ## How to use
-
 ```js
 var scaleImg = require('scale-img');
 scaleImg(srcImg, destImg, scale, function(err) {

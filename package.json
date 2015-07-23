@@ -1,6 +1,6 @@
 {
   "name": "scale-img",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "scale img by node",
   "main": "lib/scale-img.js",
   "scripts": {
