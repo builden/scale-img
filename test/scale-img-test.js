@@ -26,7 +26,7 @@ describe('scale-img', function() {
 
   it('scale not exit png test', function(done) {
     scaleImg('test/res/notexit.png', 'test/tmp-result-res/beerUI.png', 0.5, function(err) {
-      expect(err).not.be.null;
+      expect(err).exist;
       done();
     });
   });
