@@ -2,9 +2,13 @@
   "name": "scale-img",
   "version": "0.0.1",
   "description": "scale img by node",
-  "main": "index.js",
+  "main": "lib/scale-img.js",
   "scripts": {
     "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/builden/scale-img.git"
   },
   "keywords": [
     "scale-img",
@@ -13,7 +17,7 @@
     "gm"
   ],
   "author": "builden <billdeng@qq.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "async": "^1.4.0",
     "debug": "^2.2.0",
