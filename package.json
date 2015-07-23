@@ -1,0 +1,30 @@
+{
+  "name": "scale-img",
+  "version": "0.0.1",
+  "description": "scale img by node",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "keywords": [
+    "scale-img",
+    "scale",
+    "resize",
+    "gm"
+  ],
+  "author": "builden <billdeng@qq.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.0",
+    "debug": "^2.2.0",
+    "gm": "^1.18.1"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "del": "^1.2.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-mocha": "^2.1.3",
+    "mocha": "^2.2.5"
+  }
+}
